@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | netwet.news</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #f5f0e6;
+      font-family: 'Playfair Display', serif;
+      color: #3a2c1e;
+      margin: 0;
+    }
+    header {
+      background-color: #2d1f14;
+      color: gold;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Cinzel', serif;
+      margin: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: 'Playfair Display', serif;
+    }
+    button {
+      padding: 0.7rem 1.2rem;
+      background: #3a2c1e;
+      color: gold;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background: #2d1f14;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+<nav style="background: #3a2c1e; text-align: center; padding: 1rem 0;">
+  <a href="index.html" style="color: gold; margin: 0 1rem; text-decoration: none; font-weight: bold;">Home</a>
+  <a href="about.html" style="color: gold; margin: 0 1rem; text-decoration: none;">About</a>
+  <a href="blog.html" style="color: gold; margin: 0 1rem; text-decoration: none;">Blog</a>
+  <a href="games.html" style="color: gold; margin: 0 1rem; text-decoration: none;">Game Vault</a>
+  <a href="contact.html" style="color: gold; margin: 0 1rem; text-decoration: none;">Contact</a>
+</nav>
+    <h1>Contact netwet.news</h1>
+    <p>We’d love to hear from you</p>
+  </header>
+
+  <div class="container">
+    <form action="mailto:yashmandal2009.com" method="POST" enctype="text/plain">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 netwet.news | Crafted with care & pixels
+  </div>
+
+</body>
+</html>
